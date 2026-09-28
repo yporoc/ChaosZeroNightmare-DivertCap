@@ -1,7 +1,7 @@
 # Pure ASCII only: pip reads this file with the OS locale codepage (cp936 on zh-CN
 # Windows), so any non-ASCII byte here raises UnicodeDecodeError before installing.
-# Rationale for these pins lives in README.md.
-# Bump only after re-running tools/selftest_pipeline.py (17 checks).
+
+# Bump only after re-running tools/selftest_pipeline.py (18 checks, measured).
 mitmproxy==12.2.3
 zstandard==0.25.0
 cryptography==48.0.1
