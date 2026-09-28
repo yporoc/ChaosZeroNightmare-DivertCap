@@ -1,0 +1,8 @@
+# 行尾由仓库说了算，不随克隆者的 core.autocrlf 漂移
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.pcapng binary
+*.zstd binary
+*.bin binary
+*.png binary

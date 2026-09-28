@@ -1,0 +1,22 @@
+# 采集产物、密钥、本机身份 —— 一律不进版本库
+catchedsample/
+state/
+ca/
+dicts/
+.venv/
+venv/
+
+# 本机覆盖文件（工具路径、自备字典等）：按机器各异，不该进版本库
+netcatch.local.cfg
+
+# 明确再兜一层：只靠"整目录排除"是不够的，任何位置落下来的密钥材料都会被这几条挡住
+*.pem
+*.key
+*.p12
+*.pfx
+*.flows
+*.pcapng
+*.jsonl
+*.bin
+__pycache__/
+*.pyc
